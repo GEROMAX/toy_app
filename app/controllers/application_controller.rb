@@ -6,6 +6,6 @@ class ApplicationController < ActionController::Base
   end
 
   def test
-    render html: "this is test action."
+    render html: "stop switch remote."
   end
 end
