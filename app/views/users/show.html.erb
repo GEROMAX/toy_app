@@ -11,7 +11,7 @@
 </p>
 <p>
   <strong>Micropost:</strong>
-  <%= @user.microposts.last.content %>
+  <%= @user.microposts.last.content if @user.microposts.last %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
