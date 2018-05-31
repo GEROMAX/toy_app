@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  root "application#hello"
+  resources :users
+  root "users#index"
   get "test", to: "application#test"
 end
